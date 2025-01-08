@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(207, 173, 200);
+        }
+        #myForm{
+        justify-content:center;
+        text-align:center;
+        margin-top:200px;
+        background-color:aquamarine;
+        font-size: larger;
+       }     
+       h1{
+        text-align:center;        
+       }
+    </style>
+
+    <h1 style="color: rgb(196, 27, 27); font-size: 1.5cm;">Form</h1>
+    <form id="myForm" action="form1.htm" method="get" target="_blank">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>        
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="4" required></textarea><br><br>        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
