@@ -22,3 +22,12 @@ console.log("Person: " + JSON.stringify(person));
 
 let colors = ["Red", "Green", "Blue"];
 console.log("Colors: " + colors.join(", "));
+
+const Bk = ( a) => {
+    setInterval(() => {
+        console.log(a);
+    }, 100)
+}
+
+
+oneshot("Bharath");
