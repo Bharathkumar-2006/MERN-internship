@@ -30,4 +30,4 @@ const Bk = ( a) => {
 }
 
 
-oneshot("Bharath");
+Bk("Bharath");
