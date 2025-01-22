@@ -1,0 +1,27 @@
+ol{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none ;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(255, 5, 5);
+    color: aliceblue;
+
+}
+
+.Link
+{
+ text-decoration: none;
+ cursor: pointer;
+ color: aliceblue;
+ padding: 2px;
+
+}
+
+.Link:hover
+{
+    background-color: aliceblue;
+    color:rgb(255, 5, 5);
+    border-radius: 10px;
+}
