@@ -1,12 +1,10 @@
-import React from "react";
-
-const Gallery=(props)=>{
-    return(
-        <div>
-            <h3>This is {props.page} page</h3>
-            <img src="/logo.png" alt="SECE Logo"></img>
-            <h3>The image is {props.image}</h3>
-        </div>
-    );
+const Gallery = (sece) => {
+  return (
+    <div>
+      <h2>Welcome to {sece.page} page</h2>
+      <img src="logo.png" alt="" />
+      <h3>The image is {sece.img}</h3>
+    </div>
+  );
 };
 export default Gallery;
